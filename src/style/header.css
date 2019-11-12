@@ -112,7 +112,7 @@
         height: 40%;
         border-radius: 15px;
         border: none;
-        background-color: #7B87DF;
+        background-color: rgb(132, 144, 241), 163, 167);
         transition: 0.5s;
         padding-left: 5%;
         text-align: center;

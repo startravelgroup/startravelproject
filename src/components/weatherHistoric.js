@@ -82,7 +82,7 @@ render(){
       };
 
       var data = new Date();
-      const dataAtual = `${data.getDate()}/${data.getMonth()}/${data.getFullYear()}`
+      const dataAtual = `${data.getDate()}/${data.getMonth() +1}/${data.getFullYear()}`
 
     return(
         <div className = "weatherHistoric">

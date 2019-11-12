@@ -58,7 +58,7 @@ class NewsBlock extends React.Component{
     getNews1 = async(e) =>{
 
 
-        const API_NEWS = await fetch(`https://newsapi.org/v2/top-headlines?country=br&apiKey=7ddb2674bef44f9d99dfdef3a6c601f1`)
+        const API_NEWS = await fetch(`https://newsapi.org/v2/top-headlines?country=ca&apiKey=7ddb2674bef44f9d99dfdef3a6c601f1`)
         const API_DATA = await API_NEWS.json()
         console.log(API_DATA)
         var cod = Math.floor(Math.random() * 19);
@@ -88,7 +88,7 @@ class NewsBlock extends React.Component{
 
       getNews2 = async(e) =>{
 
-        const API_NEWS = await fetch(`https://newsapi.org/v2/top-headlines?country=br&apiKey=7ddb2674bef44f9d99dfdef3a6c601f1`)
+        const API_NEWS = await fetch(`https://newsapi.org/v2/top-headlines?country=ca&apiKey=7ddb2674bef44f9d99dfdef3a6c601f1`)
         const API_DATA = await API_NEWS.json()
     
         console.log(API_DATA)
@@ -116,7 +116,7 @@ class NewsBlock extends React.Component{
 
       getNews3 = async(e) =>{
 
-        const API_NEWS = await fetch(`https://newsapi.org/v2/top-headlines?country=br&apiKey=7ddb2674bef44f9d99dfdef3a6c601f1`)
+        const API_NEWS = await fetch(`https://newsapi.org/v2/top-headlines?country=ca&apiKey=7ddb2674bef44f9d99dfdef3a6c601f1`)
         const API_DATA = await API_NEWS.json()
     
         console.log(API_DATA)
