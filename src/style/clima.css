@@ -1,0 +1,87 @@
+@media (min-width: 480px){
+
+    .clima-app{
+        width: 75%;
+        height: 2.5%;
+        position: absolute;
+        left: 0;
+        top:0;
+        transition: 0.5s;
+        padding: 0;
+        text-align: center;
+        display: inline-flex;
+        padding-left: 1%;
+        
+        padding-bottom: 2px;
+        
+    }
+
+
+    .clima-app h1{
+        color: #333;
+        font-size: 0.8rem;
+        position: relative;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin: 0;
+    }
+
+    .clima-app .dayImgtop img {
+        position: absolute;
+        top: 15px;
+        height: 100px;
+        width: 52%;
+        left: 45%;
+        background: url(../assets/weather.png);
+        background-size: 60px 50px;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        padding-bottom: 0; 
+    }
+    .clima-block{
+        display: inline-flex;
+        border-bottom: 1px solid rgba(51, 51, 51, 0.397);
+        height: 100%;
+        padding-top: 3px;
+        
+        
+    }
+
+    .clima-app .temptop{
+        position: relative;
+        color: #333;
+        font-size: 0.8rem;
+        font-weight: 700;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .clima-app .tempmantop{
+        position: relative;
+        color: #333;
+        font-size: 0.8rem;
+        font-weight: 700;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin: 0;
+    }
+
+    .clima-app .tempmintop{
+        position: relative;
+        color: #333;
+        font-size: 0.8rem;
+        font-weight: 700;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 480px){
+    .clima-app{
+        display: none;
+    }
+}

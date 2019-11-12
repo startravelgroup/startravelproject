@@ -1,0 +1,17 @@
+@media (min-width: 480px){
+
+.newsblock-app{
+    width: 35%;
+    height: 40%;
+    position: relative;
+    float: left;
+    left: 17%;
+    top: 50px;
+}
+
+}
+@media (max-width: 480px){
+    .newsblock-app{
+        display: none;
+    }
+}

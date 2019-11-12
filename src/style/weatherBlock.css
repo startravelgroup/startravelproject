@@ -1,0 +1,42 @@
+
+@media (min-width: 480px){
+.weatherBlock {
+    background-color: blueviolet;
+    right: 0%;
+    top: 0%;
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    background: url("../assets/backgroundWeather.png");
+    background-size: cover;
+    padding-top: 5px;
+    transition: 1s;
+
+    
+}
+
+
+
+/*.weatherBlock:hover {
+    
+   right: 0%;
+
+}*/
+
+}
+
+@media (max-width: 480px){
+    .weatherBlock{
+        position: absolute;
+        z-index: 20;
+        bottom: 0;
+        height: 55%;
+        width: 100%;
+        background: rgba(123, 135, 223, 0.74);
+        text-align: center;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        display: none;
+    }
+
+}
